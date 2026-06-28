@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://stahe.github.io/it-nhibernate-dotnet-dec-2011/conclusione.html">
       
       
-        <link rel="prev" href="integrazione-springnhibernate.html">
+        <link rel="prev" href="integrazione-spring--nhibernate.html">
       
       
       
@@ -54,6 +54,8 @@
     
     
       <link rel="stylesheet" href="stylesheets/focus.css">
+    
+      <link rel="stylesheet" href="stylesheets/bidi.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -301,14 +303,14 @@
   
   
     <li class="md-nav__item">
-      <a href="introduzione-allorm-nhibernate.html" class="md-nav__link">
+      <a href="introduzione-a-orm-nhibernate.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    1. Introduzione all'ORM NHibernate
+    1. Introduzione a ORM NHibernate
   
 
     
@@ -328,14 +330,14 @@
   
   
     <li class="md-nav__item">
-      <a href="integrazione-springnhibernate.html" class="md-nav__link">
+      <a href="integrazione-spring--nhibernate.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    2. Integrazione Spring/NHibernate
+    2. Integrazione Spring / NHibernate
   
 
     
@@ -402,23 +404,23 @@
 
 
 
-<p><a id="refheading867052117501572"></a></p>
+<p><span id="refheading867052117501572" name="refheading867052117501572" class="odt-bookmark-anchor"></span></p>
 <h1 id="3-conclusione">3. <span style="color: #365f91">Conclusione</span></h1>
-<p>Abbiamo presentato i concetti chiave di NHibernate. Il codice di esempio è disponibile |QUI| sotto forma di due progetti Visual Studio 2010.</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000070B0000035CC6A3892B.png" width="680" height="324" style="display:inline-block; margin:4px;width:17.997cm;height:8.585cm;" class="odt-zoomable" data-zoom-src="images/100000000000070B0000035CC6A3892B.png" /></td></tr></table>
+<p>Abbiamo illustrato i concetti fondamentali di NHibernate. Il codice degli esempi è disponibile |ICI| sotto forma di due progetti Visual Studio 2010.</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000070B0000035CC6A3892B.png" width="680" height="324" style="display:inline-block; margin:4px;width:17.997cm;height:8.583cm;" class="odt-zoomable" data-zoom-src="images/100000000000070B0000035CC6A3892B.png" /></td></tr></table>
 
-<p>Il progetto [pam-nhibernate-demos] include tre file di configurazione [1]:</p>
+<p>Il progetto [pam-nhibernate-demos] è accompagnato da tre file di configurazione [1]:</p>
 <ul>
-  <li>uno per il DBMS MySQL [App.config.MySQL]
+  <li>uno per SGBD, MySQL e [App.config.MySQL]
   </li>
-  <li>uno per il DBMS SQL Server [App.config.SQLServer]
+  <li>uno per SGBD, SQL e Server [App.config.SQLServer]
   </li>
-  <li>uno per il DBMS SQL Server Compact [App.config.SQLServerCe]
+  <li>uno per il server SGBD SQL Compact [App.config.SQLServerCe]
   </li>
 </ul>
 
 <p>Per utilizzarli, è sufficiente sostituire [App.config] con il file appropriato.</p>
-<p>In [2], la cartella completa allegata a questo documento:</p>
+<p>In [2], la cartella completa che accompagna questo documento:</p>
 <ul>
   <li>la cartella [databases] [3] contiene 
     <ul>
@@ -430,35 +432,35 @@
       </li>
     </ul>
   </li>
-  <li>la cartella [libnet4] [4] contiene le DLL necessarie per il progetto Visual Studio.
+  <li>la cartella [libnet4] [4] contiene i file DLL necessari per il progetto Visual Studio.
   </li>
-  <li>Le cartelle [pam-nhibernate-demos] e [pam-spring-nhibernate-dao] sono quelle dei due progetti Visual Studio 2010 discussi in precedenza.
+  <li>Le cartelle [pam-nhibernate-demos] e [pam-spring-nhibernate-dao] corrispondono ai due progetti Visual Studio 2010 esaminati in precedenza.
   </li>
 </ul>
 
-<p>Questo documento può essere approfondito attraverso un caso di studio:</p>
+<p>Questo documento può essere ulteriormente approfondito con un caso di studio:</p>
 <ul>
-  <li><b>Creazione di un&#x27;applicazione a tre livelli con ASP.NET, C#, Spring.net e Nhibernate </b>[<a href="https://stahe.github.io/en-pam-aspnet-juin-2010/"><u><span style="color: #0563c1">https://stahe.github.io/en-pam-aspnet-juin-2010/</span></u></a>]
+  <li><b>Realizzazione di un&#x27;applicazione a tre livelli con ASP.NET, C#, Spring.net e Nhibernate </b>[http://tahe.developpez.com/dotnet/pam-aspnet/]
   </li>
 </ul>
 
-<p>L&#x27;applicazione in questo caso di studio presenta la seguente struttura a tre livelli:</p>
-<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top;"><img src="images/100000000000076F0000015CFFB7ECD1.png" width="680" height="124" style="display:inline-block; margin:4px;width:17.997cm;height:3.291cm;" class="odt-zoomable" data-zoom-src="images/100000000000076F0000015CFFB7ECD1.png" /></td></tr></table>
+<p>L&#x27;applicazione di questo caso di studio presenta la seguente struttura a tre livelli:</p>
+<table class="odt-table" style="border-collapse: collapse; width: 100%; margin-bottom: 1em;"><tr><td style="border: 1px solid #ddd; padding: 8px; vertical-align: top; text-align: left;"><img src="images/100000000000076F0000015CFFB7ECD1.png" width="680" height="124" style="display:inline-block; margin:4px;width:17.997cm;height:3.29cm;" class="odt-zoomable" data-zoom-src="images/100000000000076F0000015CFFB7ECD1.png" /></td></tr></table>
 
 <ul>
-  <li>Il livello [1-DAO] (DAO = Data Access Object) gestisce l&#x27;accesso ai dati. I dati sono memorizzati in un database. Il livello [DAO] utilizza il framework NHibernate per accedere ai dati.
+  <li>il livello [1-dao] (DAO = Data Access Object) si occupa dell’accesso ai dati, che sono memorizzati in un database. Il livello [dao] utilizza il framework Nhibernate per accedere ai dati.
   </li>
-  <li>Il livello [2-business] gestisce la logica di business dell&#x27;applicazione, in particolare i calcoli delle buste paga.
+  <li>Il livello [2-métier] si occupa dell’aspetto business dell’applicazione, ovvero il calcolo delle retribuzioni.
   </li>
-  <li>Il livello [3-presentation] gestisce la presentazione dei dati all&#x27;utente e l&#x27;esecuzione delle richieste dell&#x27;utente. Si tratta di un livello web/ASP.NET.
+  <li>Il livello [3-présentation] si occupa della presentazione dei dati all’utente e dell’esecuzione delle sue richieste. Si tratta di un livello web / ASP.NET.
   </li>
-  <li>I tre livelli sono resi indipendenti tramite l’uso di interfacce .NET
+  <li>I tre livelli sono resi indipendenti grazie all’utilizzo di interfacce .NET
   </li>
-  <li>L&#x27;integrazione dei diversi livelli è gestita da <b>Spring.NET</b>
+  <li>L’integrazione dei diversi livelli è realizzata da <b>Spring.NET</b>
   </li>
 </ul>
 
-<p>E, naturalmente, è possibile consultare libri di riferimento come quello citato all&#x27;inizio di questo documento:</p>
+<p>E poi, naturalmente, si potranno consultare libri di riferimento come quello citato all’inizio di questo documento:</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="top" />
 <p><strong>Titolo</strong>: NHibernate in Action, <strong>Autore</strong>: Pierre-Henri Kuaté, <strong>Editore</strong>: Manning, <strong>ISBN-13</strong>: 978-1932394924</p>
 <hr style="border:0; border-top:0.99pt solid #000000; margin:0.75em 0;" data-odt-border="bottom" />
